@@ -1,0 +1,95 @@
+body{
+  margin:0;
+  padding:0;
+  background-color:#e9eaed;
+  font-family:LucidaGrande;
+}
+/* position:fixed para que no se mueva un elemento al igual que top left y right 0 */
+#barra{
+  height:43px;
+  background-color:#5066ae;
+  position:fixed;
+  top:0;
+  left:0;
+  right:0;
+}
+/*  margin: 0 auto; sirve para centrar un elemento/contenido */
+#contingut{
+  margin: 0 auto;
+  height:2000px;
+  width:852px;
+  background-color:#e9eaed;
+}
+
+/* la img de fondo en CSS con background-image:url () y la otra en HTML con img src para superponerla */
+
+#contingut #cap{
+  height: 358px;
+  background-color: white;
+  background-image: url(../img/landscape.jpeg);
+  background-repeat: no-repeat;
+  border: 1px solid #DDD;
+  border-radius:3px;
+
+}
+
+/*position:relative; para mover objeto/contenido y retocar top y left, border-radius para que la img cuadrada sea redonda y para el perfil blanco border:solid white y box-shadow para dar sombra a la img*/
+
+#contingut #cap img{
+  width: 169px;
+  height: 169px;
+  position:relative;
+  top:170px;
+  left:21px;
+  border-radius:50%;
+  border:solid white 4px;
+  box-shadow: 2px 2px 2px #666666;
+}
+
+/* test-shadow para poner texto sombreado*/
+
+#contingut #cap #h2{
+  position:relative;
+  top:70px;
+  left:230px;
+  color:white;
+  text-shadow: 2px 2px 2px #666666;
+}
+
+/* ponerlo float:right; y luego float:left; en el li para alinear lista, para hacer de bloque display:block; porque con padding: 0 15px; hará que la "caja" se infle teniendo así más margen */
+
+#contingut #menu{
+  height:43px;
+  background-color:#e9eaed;
+  width:532px;
+  float:right;
+  padding:0;
+  margin:0;
+  position:relative;
+  top:73px;
+}
+/* para centrar texto de un "botón" (sin que se expanda por el padding) se utiliza line-height */
+li{
+  float:left;
+  margin: 0 0 0 1px;
+  list-style-type: none;
+  background-color:white;
+  display:block;
+  height:43px;
+  padding: 0 15px;
+  line-height: 43px;
+}
+
+#principal{
+
+}
+
+#presentacio{
+  height:200px;
+  width:322px;
+  background-color:white;
+  border-radius:3px;
+  border-solid:1px #DDD;
+  margin-top:12px;
+
+}
