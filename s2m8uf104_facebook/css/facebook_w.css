@@ -2,7 +2,7 @@ body{
   margin:0;
   padding:0;
   background-color:#e9eaed;
-  font-family:LucidaGrande;
+  font-family:'Lucida Grande',Tahoma, Segoe UI, San Francisco, Roboto;
 }
 /* position:fixed para que no se mueva un elemento al igual que top left y right 0 */
 #barra{
@@ -39,7 +39,7 @@ body{
   width: 169px;
   height: 169px;
   position:relative;
-  top:170px;
+  top:160px;
   left:21px;
   border-radius:50%;
   border:solid white 4px;
@@ -48,7 +48,7 @@ body{
 
 /* test-shadow para poner texto sombreado*/
 
-#contingut #cap #h2{
+#contingut #cap h2{
   position:relative;
   top:70px;
   left:230px;
@@ -60,7 +60,7 @@ body{
 
 #contingut #menu{
   height:43px;
-  background-color:#e9eaed;
+  background-color:white;
   width:532px;
   float:right;
   padding:0;
@@ -68,6 +68,7 @@ body{
   position:relative;
   top:73px;
 }
+
 /* para centrar texto de un "botón" (sin que se expanda por el padding) se utiliza line-height */
 li{
   float:left;
@@ -84,12 +85,34 @@ li{
 
 }
 
-#presentacio{
+#fotos{
+
+}
+
+aside{
+  width:322px;
+  float:left;
+}
+/* clear anula la "flotación" y que se superpongan */
+.esquerra{
   height:200px;
   width:322px;
   background-color:white;
   border-radius:3px;
   border-solid:1px #DDD;
   margin-top:12px;
+  float:left;
+  clear:left;
 
+}
+
+.dreta{
+  height:361px;
+  width:516px;
+  background-color:white;
+  border-radius:3px;
+  border-solid:1px #DDD;
+  margin-top:12px;
+  float:right;
+  clear:right;
 }
