@@ -4,6 +4,7 @@ body{
   background-color:#e9eaed;
   font-family:'Lucida Grande',Tahoma, Segoe UI, San Francisco, Roboto;
 }
+
 /* position:fixed para que no se mueva un elemento al igual que top left y right 0 */
 #barra{
   height:43px;
@@ -12,25 +13,25 @@ body{
   top:0;
   left:0;
   right:0;
+  z-index:1000;
 }
-/*  margin: 0 auto; sirve para centrar un elemento/contenido */
+
+/*  margin: 0 auto; sirve para centrar un elemento/contenido y overflow es el desbordamiento de texto*/
 #contingut{
   margin: 0 auto;
-  height:2000px;
   width:852px;
   background-color:#e9eaed;
+  overflow:hidden;
 }
 
 /* la img de fondo en CSS con background-image:url () y la otra en HTML con img src para superponerla */
-
 #contingut #cap{
   height: 358px;
   background-color: white;
-  background-image: url(../img/landscape.jpeg);
+  background-image: url(../img/paisaje.jpg);
   background-repeat: no-repeat;
   border: 1px solid #DDD;
   border-radius:3px;
-
 }
 
 /*position:relative; para mover objeto/contenido y retocar top y left, border-radius para que la img cuadrada sea redonda y para el perfil blanco border:solid white y box-shadow para dar sombra a la img*/
@@ -70,7 +71,7 @@ body{
 }
 
 /* para centrar texto de un "botón" (sin que se expanda por el padding) se utiliza line-height */
-li{
+#cap li{
   float:left;
   margin: 0 0 0 1px;
   list-style-type: none;
@@ -80,8 +81,9 @@ li{
   padding: 0 15px;
   line-height: 43px;
 }
-
-#principal{
+/* list-style-type: none; para quitar los puntos de los li */
+#principal li{
+list-style-type: none;
 
 }
 
@@ -93,26 +95,138 @@ aside{
   width:322px;
   float:left;
 }
-/* clear anula la "flotación" y que se superpongan */
-.esquerra{
-  height:200px;
-  width:322px;
-  background-color:white;
-  border-radius:3px;
-  border-solid:1px #DDD;
-  margin-top:12px;
+/* clear anula la "flotación" y que se superpongan, y para que el texto encaje a la caja hay que quitarle el height */
+#seccions{
+  width:298px;
   float:left;
-  clear:left;
+  overflow:hidden;
+}
+
+.esquerra{
 
 }
 
 .dreta{
-  height:361px;
-  width:516px;
+  width:492px;
+  height:100px;
+  float:right;
+  clear:right;
+}
+/* Se ponen los dos (izquierda y derecha) para indicarles que tienen esas mismas características */
+.esquerra, .dreta{
+  overflow:hidden;
+  font-size: 12px;
   background-color:white;
   border-radius:3px;
   border-solid:1px #DDD;
   margin-top:12px;
-  float:right;
-  clear:right;
+  padding:12px;
+}
+
+#presentacio, #amistats, #fotos{
+
+}
+/* text-indent es la etiqueta de sangría, deja un pequeño espacio */
+#seccions h3{
+  background-image:url(../img/lateral.png);
+  background-repeat:no-repeat;
+  background-position:0 -24px;
+  text-indent: 24px;
+  height: 26px;
+}
+
+#presentacio h3{
+  background-position: 0 0;
+
+}
+/* border-bottom: solid 1px #DDD; para hacer un filete/raya gris y para separarlo que no quede enganchado del texto un padding-bottom:12px; */
+#presentacio p{
+  padding-bottom:12px;
+  border-bottom: solid 1px #DDD;
+}
+
+#presentacio .estudis {
+  margin-bottom: 5px;
+  list-style-image: url("../img/icn/icones_estudis.png");
+}
+
+#presentacio .domicili {
+  margin-bottom: 5px;
+  list-style-image: url("../img/icn/icones_domicili.png");
+}
+
+#presentacio .feina {
+  margin-bottom: 5px;
+  list-style-image: url("../img/icn/icones_feina.png");
+}
+
+#presentacio .neixament {
+  margin-bottom: 5px;
+  list-style-image: url("../img/icn/icones_ubicacio.png");
+}
+#amistats ul{
+  padding:0;
+  margin:0;
+  overflow:hidden;
+}
+#amistats li{
+  height:85px;
+  width:85px;
+  margin:2px;
+  float:left;
+  background-size:100%;
+  position:relative;
+
+}
+
+#amistats li a:link{
+  color:white;
+  text-decoration:none;
+  position:absolute;
+  bottom:3px;
+}
+#amistats a:visited{
+  color:white;
+  text-decoration:none;
+}
+#AC{
+  background-image: url(https://acarranco2019crn.github.io/m08/s2m8uf0104carranco/img/profile.jpg);
+}
+
+#SF{
+  background-image: url(https://sfernandez2019crn.github.io/M08/s2m8uf104_fernandez/img/gos.png);
+}
+#PS{
+  background-image: url(https://psanz2019crn.github.io/M08/s2m8uf104_sanz/img/aoperfil.gif);
+}
+
+#IP{
+  background-image: url(https://iprados2019crn.github.io/M08/s2m8uf104_iprados/img/fotoperfil.jpg);
+}
+
+#OP{
+  background-image: url(https://oparicio2019crn.github.io/M08/UF1/s2m8uf104_oparicio/img/perfil.png);
+}
+
+#NC{
+  background-image: url(https://nchia2019crn.github.io/M08/s2m8uf104_chia/img/perfil.jpg);
+}
+
+#SM{
+  background-image: url(https://smarcer2019crn.github.io/M08/s2m8uf104_marcer/img/perfil_yo.jpg);
+}
+
+#VH{
+  background-image: url(https://vherrero2019crn.github.io/M08/s2m8uf104facebook/img/perfil.png);
+}
+
+#AD{
+  background-image: url(https://adositey2019crn.github.io/M08/UF1/s2m8uf104_facebook/img/photo.png);
+}
+#amistats h3{
+  background-position: 0 -48px;
+}
+
+#surprise h3{
+  background-position: 0 -72px;
 }
