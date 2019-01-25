@@ -1,0 +1,262 @@
+body{
+  background-color: #222;
+  font-family: Helvetica, sans-serif;
+  height:2466px;
+  display:block;
+}
+
+#barra {
+  background-color: black;
+  opacity: 50%;
+  height:50px;
+
+}
+
+#ko
+{
+  width:175px;
+  height:260px;
+  border-radius:5%;
+  margin:10px;
+  background-color:black;
+  float:left;
+  background-image: url("./imatges/1982Koyaanisqatsi.jpg");
+  display:block;
+
+}
+
+#sabes
+{
+  width:175px;
+  height:260px;
+  border-radius:5%;
+  margin:10px;
+  background-color:black;
+  float:left;
+  background-image: url("./imatges/2004YTuQueSabes.jpg");
+  display:block;
+
+}
+
+#earth
+{
+  width:175px;
+  height:260px;
+  border-radius:5%;
+  margin:10px;
+  background-color:black;
+  float:left;
+  background-image: url("./imatges/2005Earthlings.jpg");
+
+}
+
+#helv
+{
+  width:175px;
+  height:260px;
+  border-radius:5%;
+  margin:10px;
+  background-color:black;
+  float:left;
+  background-image: url("./imatges/2007Helvetica.jpg");
+  display:block;
+
+}
+#sicko
+{
+  width:175px;
+  height:260px;
+  border-radius:5%;
+  margin:10px;
+  background-color:black;
+  float:left;
+  background-image: url("./imatges/2007Sicko.jpg");
+  display:block;
+
+}
+#zelt
+{
+  width:175px;
+  height:260px;
+  border-radius:5%;
+  margin:10px;
+  background-color:black;
+  float:left;
+  background-image: url("./imatges/2008Zeitgeist2.jpg");
+  display:block;
+
+}
+
+#art
+{
+  width:175px;
+  height:260px;
+  border-radius:5%;
+  margin:10px;
+  background-color:black;
+  float:left;
+  background-image: url("./imatges/2009ArtAndCopy.jpg");
+  display:block;
+
+}
+#home
+{
+  width:175px;
+  height:260px;
+  border-radius:5%;
+  margin:10px;
+  background-color:black;
+  float:left;
+  background-image: url("./imatges/2009Home.jpg");
+
+}
+#rip
+{
+  width:175px;
+  height:260px;
+  border-radius:5%;
+  margin:10px;
+  background-color:black;
+  float:left;
+  background-image: url("./imatges/2009RipARemixManifesto.jpg");
+  display:block;
+
+}
+#comprar
+{
+  width:175px;
+  height:260px;
+  border-radius:5%;
+  margin:10px;
+  background-color:black;
+  float:left;
+  background-image: url("./imatges/2010ComprarTirarComprar.jpg");
+  display:block;
+
+}
+#inside
+{
+  width:175px;
+  height:260px;
+  border-radius:5%;
+  margin:10px;
+  background-color:black;
+  float:left;
+  background-image: url("./imatges/2010InsideJob.jpg");
+
+
+
+}
+
+#doctrina
+{
+  width:175px;
+  height:260px;
+  border-radius:5%;
+  margin:10px;
+  background-color:black;
+  float:left;
+  background-image: url("./imatges/2011LaDoctrinaDeShock.jpg");
+  display:block;
+
+}
+
+#searching
+{
+  width:175px;
+  height:260px;
+  border-radius:5%;
+  margin:10px;
+  background-color:black;
+  float:left;
+  background-image: url("./imatges/2012SearchingForSugarMan.jpg");
+}
+
+#act
+{
+  width:175px;
+  height:260px;
+  border-radius:5%;
+  margin:10px;
+  background-color:black;
+  float:left;
+  background-image: url("./imatges/2012TheActOfKilling.jpg");
+
+}
+
+#espiritu
+{
+  width:175px;
+  height:260px;
+  border-radius:5%;
+  margin:8px;
+  background-color:black;
+  float:left;
+  background-image: url("./imatges/2013ElEspirituDel45.jpg");
+
+  display:block;
+}
+
+#titol0
+{
+  width:175px;
+  height:260px;
+  border-radius:5%;
+  margin:10px;
+  background-color:red;
+  float:left;
+
+}
+
+#titol1
+{
+  width:175px;
+  height:260px;
+  border-radius:5%;
+  margin:10px;
+  background-color:grey;
+  float:left;
+
+}
+
+#titol1
+{
+  width:175px;
+  height:260px;
+  border-radius:5%;
+  margin:10px;
+  background-color:grey;
+  float:left;
+
+}
+
+#titol2
+{
+  width:175px;
+  height:260px;
+  border-radius:5%;
+  margin:10px;
+  background-color:yellow;
+  float:left;
+
+}
+
+#titol3
+{
+  width:175px;
+  height:260px;
+  border-radius:5%;
+  margin:10px;
+  background-color:white;
+  float:left;
+
+}
+
+h2, h3{
+  color:white;
+}
+
+p{
+  color:white;
+  margin-bottom: auto;
+}
