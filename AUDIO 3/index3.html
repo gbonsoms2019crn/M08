@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="es" manifest="cache.manifest" >
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <link rel="icon" sizes="192x192" href="img/icon.png">
+  <link rel="icon" sizes="512x512" href="img/icon.png">
+  <link rel="apple-touch-icon" sizes="192x192" href="img/icon.png">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>AudioNote</title>
+  <link rel="shortcut icon" href="img/logo_v2.png" type="image/x-icon">
+
+  <link rel='stylesheet' href="css/plyr.css">
+  <link rel="stylesheet" href="css/style2.css">
+
+
+
+</head>
+
+<body>
+
+  <div class="cont">
+    <img class="logo" src="img/logo.png">
+  <div id="mySidenav" class="sidenav">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+
+    <button class="dropdown-btn">Favoritos
+    <i class="fa fa-caret-down"></i>
+  </button>
+    <div class="dropdown-container">
+    <p>1) Imagine Dragons - Believer</p>
+    <p>2) Panic! At The Disco - High Hopes</p>
+    <p>3) SIAMÉS - The Wolf </p>
+    <p>4) Thanks For The Memories - Fall Out Boy</p>
+    <p>5) Normandie - Awakening</p>
+    <p>6) Evanescence - Bring Me To Life</p>
+    <p>7) Coldplay - Hymn For The Weekend</p>
+    <p>8) Alan Walker - Diamond Heart</p>
+    <p>9) Billie Eilish & Khalid - Lovely</p>
+    <p>10) Flyleaf - Again</p>
+
+  </div>
+
+  <button class="dropdown-btn">Playlist
+  <i class="fa fa-caret-down"></i>
+</button>
+  <div class="dropdown-container">
+  <p><u>Orden de reproducción de la música:</u></p>
+  <p>Billie Eilish & Khalid - Lovely</p>
+  <p>Coldplay - Hymn For The Weekend</p>
+  <p>Evanescence - Bring Me To Life</p>
+  <p>Panic! At The Disco - High Hopes</p>
+  <p>Imagine Dragons - Believer</p>
+  <p>Thanks For The Memories - Fall Out Boy</p>
+  <p>Flyleaf - Again</p>
+  <p>Alan Walker - Diamond Heart</p>
+  <p>SIAMÉS - The Wolf</p>
+  <p>Normandie - Awakening</p>
+</div>
+
+<button class="dropdown-btn">Track
+<i class="fa fa-caret-down"></i>
+</button>
+<div class="dropdown-container">
+<p>1 - 10</p>
+</div>
+
+
+</div>
+  <span style="font-size:28px;cursor:pointer" onclick="openNav()">&#9776; Menú</span>
+</div>
+</div>
+
+
+<div class="body_center">
+  <div class="playlist">
+
+
+	<ul class='playlist--list'>
+<div class="body2">
+  <h1>Álbums</h1>
+    <div class="section1">
+
+    <div class="box">
+		<li data-id="0" data-audio="music/Billie Eilish _ Khalid - Lovely (Sub. Español).mp3">Billie Eilish & Khalid - Lovely</li>
+      <img src="img/lovely.jpg" class="img"></img>
+    </div>
+
+  <div class="box">
+		<li data-id="1" data-audio="music/Coldplay - Hymn For The Weekend (Lyrics).mp3">Coldplay - Hymn For The Weekend</li>
+    <img src="img/hymn_weekend.jpg" class="img"></img>
+      </div>
+
+    <div class="box">
+    <li data-id="2" data-audio="music/Evanescence - Bring Me To Life (Official Music Video).mp3">Evanescence - Bring Me To Life</li>
+    <img src="img/bring_life.jpg" class="img"></img>
+    </div>
+
+    <div class="box">
+    <li data-id="3" data-audio="music/Panic! At The Disco - High Hopes -- Español.mp3">Panic! At The Disco - High Hopes</li>
+    <img src="img/high_hopes.jpg" class="img"></img>
+    </div>
+
+    <div class="box">
+    <li data-id="4" data-audio="music/Imagine Dragons - Believer (Audio).mp3">Imagine Dragons - Believer</li>
+    <img src="img/believer.jpg" class="img"></img>
+    </div>
+
+
+	</ul>
+
+
+  <ul class='playlist--list'>
+    <div class="section2">
+
+    <div class="box">
+      <li data-id="5" data-audio="music/Thanks For The Memories Lyrics_ Fall out Boy.mp3">Thanks For The Memories - Fall Out Boy </li>
+      <img src="img/fall_out_boy.jpg" class="img"></img>
+      </div>
+
+    <div class="box">
+    <li data-id="6" data-audio="music/Flyleaf - Again [Lyrics].mp3">Flyleaf - Again</li>
+    <img src="img/flyleaf.jpg" class="img"></img>
+    </div>
+
+    <div class="box">
+    <li data-id="7" data-audio="music/Alan Walker - Diamond Heart (feat. Sophia Somajo).mp3">Alan Walker - Diamond Heart</li>
+    <img src="img/diamond_heart.jpg" class="img"></img>
+    </div>
+
+    <div class="box">
+    <li data-id="8" data-audio="music/SIAMÉS The Wolf [Official Animated Music Video].mp3">SIAMÉS - The Wolf</li>
+    <img src="img/siames.jpg" class="img"></img>
+    </div>
+
+    <div class="box">
+    <li data-id="9" data-audio="music/Normandie - Awakening.mp3">Normandie - Awakening</li>
+    <img src="img/inguz.jpg" class="img"></img>
+    </div>
+
+
+
+  </div>
+  </div>
+	</ul>
+
+
+</div>
+</div>
+
+
+
+
+<div style="display: none;"><svg xmlns="http://www.w3.org/2000/svg"> <path d="M1 1c-.6 0-1 .4-1 1v11c0 .6.4 1 1 1h4.6l2.7 2.7c.2.2.4.3.7.3.3 0 .5-.1.7-.3l2.7-2.7H17c.6 0 1-.4 1-1V2c0-.6-.4-1-1-1H1zm4.52 10.15c1.99 0 3.01-1.32 3.28-2.41l-1.29-.39c-.19.66-.78 1.45-1.99 1.45-1.14 0-2.2-.83-2.2-2.34 0-1.61 1.12-2.37 2.18-2.37 1.23 0 1.78.75 1.95 1.43l1.3-.41C8.47 4.96 7.46 3.76 5.5 3.76c-1.9 0-3.61 1.44-3.61 3.7 0 2.26 1.65 3.69 3.63 3.69zm7.57 0c1.99 0 3.01-1.32 3.28-2.41l-1.29-.39c-.19.66-.78 1.45-1.99 1.45-1.14 0-2.2-.83-2.2-2.34 0-1.61 1.12-2.37 2.18-2.37 1.23 0 1.78.75 1.95 1.43l1.3-.41c-.28-1.15-1.29-2.35-3.25-2.35-1.9 0-3.61 1.44-3.61 3.7 0 2.26 1.65 3.69 3.63 3.69z" fill-rule="evenodd"/></symbol><path d="M10 3h3.6l-4 4L11 8.4l4-4V8h2V1h-7zM7 9.6l-4 4V10H1v7h7v-2H4.4l4-4z"/></symbol><path d="M1 12h3.6l-4 4L2 17.4l4-4V17h2v-7H1zM16 .6l-4 4V1h-2v7h7V6h-3.6l4-4z"/></symbol><symbol id="plyr-fast-forward" viewBox="0 0 18 18"><path d="M7.875 7.171L0 1v16l7.875-6.171V17L18 9 7.875 1z"/></symbol><symbol id="plyr-muted" viewBox="0 0 18 18"><path d="M12.4 12.5l2.1-2.1 2.1 2.1 1.4-1.4L15.9 9 18 6.9l-1.4-1.4-2.1 2.1-2.1-2.1L11 6.9 13.1 9 11 11.1zM3.786 6.008H.714C.286 6.008 0 6.31 0 6.76v4.512c0 .452.286.752.714.752h3.072l4.071 3.858c.5.3 1.143 0 1.143-.602V2.752c0-.601-.643-.977-1.143-.601L3.786 6.008z"/></symbol><symbol id="plyr-pause" viewBox="0 0 18 18"><path d="M6 1H3c-.6 0-1 .4-1 1v14c0 .6.4 1 1 1h3c.6 0 1-.4 1-1V2c0-.6-.4-1-1-1zM12 1c-.6 0-1 .4-1 1v14c0 .6.4 1 1 1h3c.6 0 1-.4 1-1V2c0-.6-.4-1-1-1h-3z"/></symbol><symbol id="plyr-play" viewBox="0 0 18 18"><path d="M15.562 8.1L3.87.225C3.052-.337 2 .225 2 1.125v15.75c0 .9 1.052 1.462 1.87.9L15.563 9.9c.584-.45.584-1.35 0-1.8z"/></symbol><symbol id="plyr-restart" viewBox="0 0 18 18"><path d="M9.7 1.2l.7 6.4 2.1-2.1c1.9 1.9 1.9 5.1 0 7-.9 1-2.2 1.5-3.5 1.5-1.3 0-2.6-.5-3.5-1.5-1.9-1.9-1.9-5.1 0-7 .6-.6 1.4-1.1 2.3-1.3l-.6-1.9C6 2.6 4.9 3.2 4 4.1 1.3 6.8 1.3 11.2 4 14c1.3 1.3 3.1 2 4.9 2 1.9 0 3.6-.7 4.9-2 2.7-2.7 2.7-7.1 0-9.9L16 1.9l-6.3-.7z"/></symbol><symbol id="plyr-rewind" viewBox="0 0 18 18"><path d="M10.125 1L0 9l10.125 8v-6.171L18 17V1l-7.875 6.171z"/></symbol><symbol id="plyr-volume" viewBox="0 0 18 18"><path d="M15.6 3.3c-.4-.4-1-.4-1.4 0-.4.4-.4 1 0 1.4C15.4 5.9 16 7.4 16 9c0 1.6-.6 3.1-1.8 4.3-.4.4-.4 1 0 1.4.2.2.5.3.7.3.3 0 .5-.1.7-.3C17.1 13.2 18 11.2 18 9s-.9-4.2-2.4-5.7z"/><path d="M11.282 5.282a.909.909 0 0 0 0 1.316c.735.735.995 1.458.995 2.402 0 .936-.425 1.917-.995 2.487a.909.909 0 0 0 0 1.316c.145.145.636.262 1.018.156a.725.725 0 0 0 .298-.156C13.773 11.733 14.13 10.16 14.13 9c0-.17-.002-.34-.011-.51-.053-.992-.319-2.005-1.522-3.208a.909.909 0 0 0-1.316 0zM3.786 6.008H.714C.286 6.008 0 6.31 0 6.76v4.512c0 .452.286.752.714.752h3.072l4.071 3.858c.5.3 1.143 0 1.143-.602V2.752c0-.601-.643-.977-1.143-.601L3.786 6.008z"/></symbol></svg></div>
+  <script src='http://cdn.plyr.io/1.6.13/plyr.js'></script>
+
+<footer>
+  <div class="plyr">
+    <audio controls></audio>
+  </div>
+</footer>
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>
